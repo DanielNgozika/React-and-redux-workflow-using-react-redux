@@ -1,0 +1,85 @@
+.App {
+  height: 100vh;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.home {
+  width: 100%;
+  padding-top: 30%;
+  height: 100%;
+  background: linear-gradient(to right, #00c4cc, #7d2ae8);
+}
+.home h1 {
+  font-weight: 600;
+  font-size: 30px;
+  color: #fff;
+}
+.home button {
+  border: 2px solid #fff;
+  border-radius: 25px;
+  width: 130px;
+  height: 50px;
+  color: #fff;
+  background: transparent;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  transition: width 0.1s;
+}
+.home button:hover {
+  width: 140px;
+  font-size: 14px;
+  border-radius: 30px;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  height: 50px;
+  background-color: #fff;
+  opacity: 1;
+}
+.header h4 {
+  color: #000;
+}
+.todos_list_section {
+  margin: 50px 0;
+  padding: 2px 0;
+  /* background: linear-gradient(to bottom, #33ccff, #3399ff) */
+}
+#remove {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  float: right;
+}
+.not_completed,
+.completed {
+  padding: 0 10px;
+  font-size: 14px;
+  width: 70%;
+  border-radius: 4px;
+  margin: 10px auto;
+  transition: width 0.2s;
+}
+.not_completed p,
+.completed p {
+  margin: 15px auto;
+}
+.not_completed:hover,
+.completed:hover {
+  width: 75%;
+}
+.not_completed {
+  border: 1px solid red;
+}
+.completed {
+  border: 1px solid #00cc66;
+}
